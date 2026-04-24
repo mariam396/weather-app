@@ -14,7 +14,7 @@ function App() {
     try {
       setError("");
 
-      const res = await axios.post("/api/weather", { location });
+      const res = await axios.post("https://weather-app-1-3b7s.onrender.com/api/weather", { location });
 
       setWeather(res.data.weather);
       setForecast(res.data.forecast);
