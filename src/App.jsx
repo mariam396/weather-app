@@ -14,7 +14,6 @@ function App() {
     try {
       setError("");
 
-      // ✅ Fix #6: Using relative URL via Vite proxy instead of hardcoded localhost
       const res = await axios.post("/api/weather", { location });
 
       setWeather(res.data.weather);

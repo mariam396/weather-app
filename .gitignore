@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-# Environment variables ✅ Fix #9: Added .env
+# Environment variables 
 .env
 .env.*
 
